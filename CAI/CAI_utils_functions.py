@@ -5,9 +5,7 @@ from PIL import Image, ImageDraw,ImageChops
 from scipy.sparse import lil_matrix, linalg, csc_matrix
 from scipy.sparse.linalg import spsolve
 from scipy.sparse import lil_matrix
-
 import cv2
-from PIL import Image
 
 
 seed_value = 42

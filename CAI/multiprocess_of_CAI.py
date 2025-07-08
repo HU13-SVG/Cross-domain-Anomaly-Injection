@@ -2,7 +2,7 @@ import glob
 import cv2
 from tqdm import tqdm
 from multiprocessing import Process
-from datetime import datetime  # 获取当前时间
+from datetime import datetime  
 
 from CAI_utils_functions import *
 
