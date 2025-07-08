@@ -1,25 +1,15 @@
 import numpy as np
 import os
 import random
-import matplotlib.pyplot as plt
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw,ImageChops
 from scipy.sparse import lil_matrix, linalg, csc_matrix
-from PIL import ImageChops
-from PIL import ImageChops
-import shutil
-from scipy.sparse import csc_matrix
 from scipy.sparse.linalg import spsolve
 from scipy.sparse import lil_matrix
 
-from scipy.sparse.linalg import spsolve
 import cv2
 from PIL import Image
-import math
-import time
 
-from scipy.ndimage import rotate
 
-import random
 seed_value = 42
 np.random.seed(seed_value)
 random.seed(seed_value)
